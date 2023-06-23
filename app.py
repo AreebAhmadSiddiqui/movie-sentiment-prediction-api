@@ -7,7 +7,7 @@ from nltk.stem.porter import PorterStemmer
 ps = PorterStemmer()
 from flask_cors import CORS
 
-model1 = pickle.load(open('./models/RandomForest.pkl', 'rb'))
+model1 = pickle.load(open('./models/MultinomialNB.pkl', 'rb'))
 model2 = pickle.load(open('./models/Bernoulli.pkl', 'rb'))
 model3 = pickle.load(open('./models/Gaussian.pkl', 'rb'))
 model4 = pickle.load(open('./models/Multinomial.pkl', 'rb'))
