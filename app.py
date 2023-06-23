@@ -1,6 +1,5 @@
 from flask import Flask, request, jsonify
 import traceback
-import streamlit as st
 import pickle
 import re
 from nltk.corpus import stopwords
